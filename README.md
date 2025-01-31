@@ -1,12 +1,12 @@
-##Word Finder (MIT License)
+## Word Finder (MIT License)
 
 I took every english word (over 200k words) and built a little NodeJS app that will help you find words that contain specific characters.
 
 Additionally, here are instructions to deploy this app to Nodejitsu, Heroku, and Azure via Windows or Mac.
 
-##How to Use
+## How to Use
 
-###The underscore
+### The underscore
 
 Type a word into the text box with the following pattern:
 
@@ -17,7 +17,7 @@ And you'll get words such as:
     hello
     helio
 
-###The question mark
+### The question mark
 
 This character is great for games like What's the Phrase (a knock off of Wheel of Fortune)
 
@@ -41,19 +41,19 @@ because the `t` would already be visible (in What's the Phrase), and you would h
 
     st??t
 
-##Instructions for running
+## Instructions for running
 
 Go to http://nodejs.org and install NodeJS
 
 Then clone this repo:
 
-    git clone https://github.com/amirrajan/word-finder.git
+    git clone https://github.com/TheEnigmaThatIsMe/nodeJS-wordFinder.git
 
 And `cd` into the directory (all instructions below assume you are in the `word-finder` directory:
 
     cd word-finder
 
-##Run Locally
+## Run Locally
 
 Install all the dependencies:
 
@@ -73,9 +73,9 @@ Run the app:
 
 Then navigate to `http://localhost:3000`
 
-##Signing up, and deploying to Nodejitsu
+## Signing up, and deploying to Nodejitsu
 
-###Documentation
+### Documentation
 
 The documenation was available on the front page (right under the sign up for free button): https://www.nodejitsu.com/getting-started/
 
@@ -111,9 +111,9 @@ now deploy:
 
 And your app should be up on Nodejitsu.
 
-##Signing up, and deploying to Heroku
+## Signing up, and deploying to Heroku
 
-###Documentation
+### Documentation
 
 From heroku.com, click Documentation, then click the Getting Started button, then click Node.js from the list of options on the left...which will take you here: https://devcenter.heroku.com/articles/nodejs 
 
@@ -143,9 +143,9 @@ Open the app (same as opening it in the browser):
 
 And your app should be up on Heroku.
 
-##Signing up, and deploying to Azure
+## Signing up, and deploying to Azure
 
-###Documentation
+### Documentation
 
 From windowsazure.com, click Documentation, click Developer Center, click node.js, then click the Learn More button which will take you here:
 
